@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        input::placeholder{
+            font-size: 20px;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div style=" width: 100%; height: 100vh; background:  linear-gradient(to left, purple, red );  place-items: center; display: grid; ">
+        <div style="width: 50%; background-color: rgba(1, 1, 22, 0.89); height: 65%; ">
+            <form action="">
+               <div style="padding: 32px; display: grid; gap: 20px;">
+                 <div style="display: grid;
+                grid-template-columns: 1fr 1fr;">
+                    <button style="color: white; background-color: aquamarine; padding: 10px 0; border: none;">SIGN UP</button>
+                    <button style="color: white; background-color: #475257; padding: 10px 0; border: none;">LOG IN</button>
+                </div>
+                <p style="color: white; text-align: center; font-size: 30px;">Sign Up for Free</p>
+                <div style="display: grid;
+                grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <input type="text" name="fname" id="fname" placeholder="First Name*" style="padding: 10px 0; background-color: transparent; border: 2px solid white; color: white;" required>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name*" style="padding: 10px 0; background-color: transparent; border: 2px solid white; color: white;" required>
+                    
+                </div>
+                <div style="display: grid;
+                grid-template-columns: 1fr ;">
+                    <input type="email" name="mail" id="mail" placeholder="Email Address*" style="padding: 10px 0; background-color: transparent; border: 2px solid white; color: white;" 
+                    required>
+                </div>
+                <div style="display: grid;
+                grid-template-columns: 1fr ;">
+                    <input type="password" name="pass" id="pass" placeholder="Set Your Password*" style="padding: 10px 0; background-color: transparent; border: 2px solid white; color: white;" 
+                    required>
+                </div>
+               <div style="display: grid;
+                grid-template-columns: 1fr ;">
+                 <button style="color: white; background-color: aquamarine; padding: 10px 0; border: none; font-size: 30px; font-weight: 600;">SIGN UP</button>
+                </div>
+               </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
