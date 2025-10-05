@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .navv{
+            background-color: rgb(27, 19, 1);
+            padding: 20px 80px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav h1{
+            color: white;
+            font-size: 40px;
+        }
+        nav ul{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        nav li{
+            list-style-type: none;
+            font-size: 16px;
+        }
+        nav a{
+             color: rgb(245, 233, 211);
+             text-decoration: none;
+        }
+        nav a:hover{
+            color: rgb(255, 204, 102);
+        }
+        .section1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 10px 80px;
+            gap: 20px;
+            height: 80vh;
+            background-color: rgb(245, 233, 211);
+            align-items: center;
+        }
+    
+        .left1{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 30px 0;
+        }
+        .rith img{
+            border-radius: 15px;
+            height: 100%;
+        }
+        .left1 h1{
+            font-weight: 700;
+            font-size: 50px;
+        }
+        .left1 p{
+            font-size: 20px;
+            text-indent: 30px;
+        }
+        .left1 button{
+            padding: 10px 17px;
+            background-color: rgb(255, 201, 94);
+            border: none;
+            
+            font-size: 18px;
+        }
+        .left1 button a {
+            color: black;
+        }
+        .left1 button:hover{
+           
+             background-color: rgb(105, 80, 15);
+            color: black;
+        }
+         .section2{
+            
+            padding: 40px 80px;
+            background-color: rgb(102,51,0);
+           color: rgb(245, 221, 173);
+            
+          
+        }
+        #about h2{
+            font-size: 40px;
+             text-align: center;
+        }
+        #about p{
+            font-size: 18px;
+            text-indent: 30px;
+        }
+        #project{
+            background-color: rgb(233, 219, 186);
+            padding: 40px 80px;
+            place-items: center;
+            
+
+        }
+        #project h2{
+            font-size: 40px;
+             text-align: center;
+        }
+        .proj{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            justify-content: center;
+            row-gap: 40px;
+         
+            
+        }
+         .proj1{
+            background-color: rgb(245, 233, 211);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+         }
+        .proj1 p{
+            font-size: 18px;
+            text-indent: 30px;
+        }
+        .new button{
+            width: 100%;
+            padding: 15px;
+             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+             border-radius: 10px;
+             border: none;
+        }
+        .new button a{
+            color: black;
+        }
+        .proj h3{
+            font-size: 30px;
+        }
+        #contact{
+            background-color: rgb(236, 211, 152);
+            padding: 40px 80px;
+            text-align: center;
+            place-items: center;
+            
+        }
+        .sect{
+             place-items: center;
+        }
+        .sect h2{
+             font-size: 40px;
+             text-align: center;
+        }
+        .sect p{
+            font-size: 18px;
+        }
+        form{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+        form input, form textarea{
+            padding: 12px;
+            border: 2px solid rgb(102,51,0);
+            border-radius: 10px;
+
+        }
+         form input:focus, form textarea:focus{
+            border-color: black;
+         }
+         form button{
+            background-color: rgb(218, 165, 32);
+            color: rgb(27, 19, 1);
+            border: none;
+             border-radius: 10px;
+
+            padding: 8px 15px;
+            cursor: pointer;
+            font-weight: 600;
+         }
+         form button:hover{
+            background-color: rgb(255, 201, 94);
+            color: black;
+         }
+         .link p{
+            font-size: 23px;
+            
+         }
+         .link a{
+            font-size: 24px;
+         }
+         footer{
+            background-color: rgb(27, 19, 1);
+            padding: 20px 80px;
+            font-size: 20px;
+           color: rgba(245, 233, 211, 0.781);
+            
+           
+         }
+         .foot{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 20px;
+         }
+         a{
+            text-decoration: none;
+         }
+         .proj a{
+            font-size: 18px;
+         }
+         .social, .links, .pro{
+           
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+         }
+         .foot a {
+             color: rgba(245, 233, 211, 0.781);
+         }
+         footer span{
+            color: red;
+         }
+         .foot i{
+            color: white;
+            font-size:18px;
+         }
+         .link i{
+            color: black;
+            font-size:18px;
+         }
+         .spac{
+            display: flex;
+            gap: 8px;
+            
+         }
+         .link .spac{
+            justify-content: center;
+         }
+    </style>
+</head>
+<body>
+    <header>
+       <div class="navv">
+         <nav>
+           <div>
+            <h1>devAl - Halal</h1>
+           </div>
+           <div>
+            <ul>
+                 <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#project">PROJECT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            </ul>
+           </div>
+        </nav>
+       </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="section1">
+                <div class="left1">
+                    <h1>Coding with Passion. Growing with Purpose</h1>
+                    <p>I'm a Frontend Developer wholoe creating things that people enjoy using. For me, coding is not just about making websites, its about building something meaningful that connect design and technology. I'm always learning, improving, and building with purpose</p>
+                    <div class="">
+                        <button><a href="https://github.com/devAl-Halal/demo-repo">Explore my Project </a></button>
+                    </div>
+                </div>
+                <div class="rith">
+                    <img src="/image/woman-hands-pressing-keys-laptop-keyboard-office_484651-7331.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="section2">
+                <div class="">
+                    <h2>About Me</h2><br><br>
+                    <p>I'm <strong>Akinlabi zainab ololade</strong> a passionate beginner web developer who has alays ben in love with the web. My journey into tech started with curiosity and a dsire to understand how beautiful, interactive websites come to life</p><br>
+                    <p>I work with <strong>HTML, CSS, Bootstrap and JavaSript</strong>, and am constantly learning and exploring new ways to improve my skills. For me, <strong>coding isn't about building websites, it's about creating something meaning and beautiful</strong>, something that connects with user and make a difference. every line of code I write brings me one step closer to turning ideas into reality
+                    </p>
+                    <a href=""></a>
+                </div>
+
+            </div>
+        </section>
+        <section id="project">
+            <h2>My project</h2><br><br>
+            <div class="proj">
+                <div class="proj1">
+                   <div class="im">
+                     <img src="image/Screenshot 2025-10-01 063902.png" alt="" width="100%" height="50%">
+                   </div>
+                    <h3>Issues Documentation</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum rerum exercitationem ratione, enim sapiente atque temporibus sed nostrum quibusdam totam.</p>
+                    
+                    <a href="https://deval-halal.github.io/demo-repo/">View Project</a>
+                   
+                </div>
+                <div class="proj1">
+                    <div class="im">
+                        <img src="image/Screenshot 2025-10-01 064010.png" alt="" width="100%" height="100%">
+                    </div>
+                    <h3>Sign in Page</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum rerum exercitationem ratione, enim sapiente atque temporibus sed nostrum quibusdam totam.</p>
+                   
+                     <a href="https://deval-halal.github.io/demo-repo/form.html">View Project</a>
+                    
+                </div>
+                <div class="proj1">
+                    <div class="im">
+                        <img src="image/Screenshot 2025-10-01 064055.png" alt="" width="100%" height="100%">
+                    </div>
+                    <h3>Ludo</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum rerum exercitationem ratione, enim sapiente atque temporibus sed nostrum quibusdam totam.</p>
+                  
+                    <a href="https://deval-halal.github.io/demo-repo/ludo.html">View Project</a>
+                </div>
+                <div class="new">
+                    <button><a href="https://github.com/devAl-Halal/demo-repo">View more Project</a></button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="sect">
+                <h2>Contact</h2><br><br>
+                <p>If you'd like to get in touch, feel free to sent me a message. I'd love to hear from you!</p><br>
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email"required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form><br><br>
+                <div class="link">
+                    <p>Or reach me on:</p><br>
+                    <div class="spac">
+                        <a href="mailto:akinlabizainab07@gmail.com" title="Send me an email"><i class="bi bi-envelope"></i></a>
+                   
+                    <a href="https//www.linkedin.com/in/akinlabi-zainab" title="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https//twitter.com" title="twitter"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+       <div class="foot">
+         <div class="social">
+               <h2>deVal-Halal</h2>
+                <p>Lorem ipsum dolor sit amet consectetu.</p>
+                 
+                <p>Style Edit</p>
+                <p>About Us</p>
+                
+                <p>Careers</p>
+
+                
+            </div>
+         <div class="links">
+             <h2>Quick Link</h2>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+           
+        </div>
+        <div class="pro">
+            <h2>Project</h2>
+            <a href="https://deval-halal.github.io/demo-repo/">Issue Documentation</a>
+            <a href="https://deval-halal.github.io/demo-repo/form.html">Sign in Page</a>
+            <a href="https://deval-halal.github.io/demo-repo/ludo.html">Ludo</a>
+        </div>
+        
+        <div class="social">
+           <h2>Contact us</h2>
+           <a href="tel:+2347019232358"><i class="bi bi-telephone-fill">+2347019232358</i></a> 
+            <a href="https://wa.me/+2348163644986"><i class="bi bi-whatsapp">+2348163644986</i> </a>
+            <i class="bi bi-geo-alt-fill">Yoaco filling Sation, Ogbomosho, Oyostate</i>
+           <div class="spac">
+             <a href="mailto:akinlabizainab07@gmail.com" title="Send me an email"><i class="bi bi-envelope"></i></a>
+            <a href="https://github.com/devAl-Halal" title="github"><i class="bi bi-github"></i></a>
+            <a href="https//www.linkedin.com/in/akinlabi-zainab" title="linkedin"a><i class="bi bi-linkedin"></i></a>                
+            <a href="https//twitter.com" title="twitter"><i class="bi bi-twitter-x"></i></a>
+           </div>
+            
+        </div>
+       </div><br><hr><br>
+        <small><marquee behavior="alternate" direction="left" scrollamount="5" >&copy; 2025  Deval-Halal Portfolio | Designed with <span>♥</span> by Zainab</marquee></small>
+    </footer>
+</body>
+</html>
