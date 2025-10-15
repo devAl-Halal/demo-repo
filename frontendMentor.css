@@ -1,0 +1,499 @@
+body{
+    background-color: #fdf3f3;
+}
+.navlink{
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.lock:hover{
+    border-bottom: 2px solid red; 
+}
+.lock button{
+    background-color: #3e54a3;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.login{
+    margin-left: 10px;
+}
+.login button{
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.login button:hover{
+    background-color: black ;
+    color: white;
+}
+.navv{
+    padding: 15px 0;
+}
+.dropdown-item, .dropdown-divider{
+    font-weight: 700 !important;
+}
+.learn{
+    min-height: 90vh;
+    
+display: flex;
+align-items: center;
+}
+.left h4{
+    
+    text-transform: uppercase;
+}
+.left h1{
+    font-weight: 600;
+    font-size: 52px;
+    color: #3e54a3;
+}
+.left p{
+    font-size: 20px;
+    color: #777373;
+}
+.left span{
+    color: #3e54a3;
+    font-weight: 700;
+}
+.hom .buui{
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #e11d48;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hom .buui:hover{
+     background-color: #e11d48;
+    color: white;
+}
+.hom .buuii{
+    border: 1px solid #777373;
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.hom .buuii:hover{
+     border: 1px solid #777373;
+     background-color: white;
+    color: black;
+}
+.feed{
+    display: flex;
+align-items: center;
+background-color: #364890;
+color: white;
+padding: 10px 30px;
+    border-radius: 20px;
+}
+.feed p{
+    font-size: 16px;
+    
+}
+.feed button{
+    background-color: white;
+    color: #364890;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: 700;
+}
+.feed button:hover{
+    background-color: white;
+    color: #364890;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    
+    
+}
+.lef{
+    padding-left: 30px;
+}
+.box{
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+    margin: 20px 0;
+}
+.roun img{
+    border-radius: 50%;
+    
+}
+.gapp{
+    display: flex;
+    gap: 80px;
+}
+.para p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.newe h6{
+    font-size: 18px;
+    font-weight: 700;
+    color: #364890;
+}
+.newe p{
+    color: #737373;
+}
+.boxes{
+    background-color: white;
+    border: 2px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 40px 50px;
+    
+}
+.work {
+    background-color: #f3f4f6;
+    padding: 50px 30px;
+    border-radius: 20px;
+}.no1{
+    background-color: #3e54a3;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+.no{
+     background-color: white;
+    border: 2px solid #e5e5e5;
+    border-radius: 15px;
+    
+    color: black;
+   
+    padding: 20px;
+}
+.no1 span{
+    padding: 4px 12px;
+    border-radius: 50%;
+    background-color: white;
+    color: #3e54a3;
+    margin-right: 10px;
+}
+.no span{
+    padding: 4px 12px;
+    border-radius: 50%;
+    background-color: #06b6d4;
+    color: white;
+    margin-right: 10px;
+}
+.move{
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 15px;
+    justify-content: center;
+    padding: 30% 0;
+
+}
+.move p{
+    color: #73739a;
+    font-size: 18px;
+}
+.fast{
+    width: 100%;
+    place-items: center;
+}
+.fas{
+    width: 40%;
+    text-align: center;
+}
+.fasp{
+    width: 60%;
+     text-align: center; 
+     color: #73739a;
+    font-size: 20px;
+
+}
+.fas button{
+     background-color: #3e54a3;
+
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.level{
+    background-color: white;
+    border: 2px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.level i{
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 35px;
+    background-color: #e3e9fb;
+    color: #364890;
+}
+.level p{
+       color: #73739a;
+}
+.but{
+    background-color: white;
+    border: 2px solid #e5e5e5;
+    border-radius: 22px;
+    padding: 15px 20px 15px 2px;
+    font-weight: 700;
+
+}
+.but::before{
+    content: "FOR INDIVIDUALS";
+     background-color: #3e54a3;
+     padding: 13px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-right: 15px;
+}
+.team{
+    width: 100%;
+    place-items: center;
+}
+.individual{
+    width: 70%;
+   
+}
+.month{
+    background-color: white;
+    border: 2px solid #e5e5e5;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+.year{
+    border: 2px solid #364890;
+    border-radius: 30px;
+    
+     
+}
+.yearly{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.year span, .month span{
+    background-color: #364890;
+    color: white;
+    padding: 3px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+    .best{
+
+    background-color: #364890;
+    color: white;
+    padding: 8px 0;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+}
+.month button, .yearly button{
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #e11d48;
+    font-weight: 700;
+    border: none;
+}
+.bold{
+    font-weight: 700;
+}
+.colo{
+    color: #737373;
+    font-size: 15px;
+}
+.logo{
+    width: 60%;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 20px;
+}
+.logo img{
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.move button{
+     border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #e11d48;
+    font-weight: 700;
+    border: none;
+}
+.move h6{
+    color: #364890;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+.little{
+   
+    background-color: #f3f4f6;
+    border-radius: 20px;
+    padding: 60px;
+}
+.plat{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.plat p{
+    color: #777373;
+    font-size: 18px;
+}
+.join{
+    width: 100%;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ background-color: #f3f4f6;
+    border-radius: 20px;
+    padding: 60px;
+}
+.join h2{
+    width: 60%;
+    text-align: center;
+    font-size: 40px;
+}
+.join p{
+    width: 80%;
+    text-align: center;
+    color: #777373;
+    font-size: 25px;
+}
+.join button{
+     border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #e11d48;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+}
+.bod{
+    background-color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+
+}
+.foo{
+    display: flex;
+    gap: 20px;
+}
+.foo i{
+    color: #06b6d4;
+    font-size: 35px;
+}
+.stay{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+}
+.stay h3{
+    color: #364890;
+    font-size: 40px;
+
+
+}
+
+.foobut button{
+     border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #e11d48;
+    font-weight: 700;
+    border: none;
+}
+.foobut{
+    display: flex;
+    gap: 8px;
+}
+.stays h4{
+    font-weight: 700    ;
+}
+.stays p{
+    font-size: 20px;
+    color: #737373;
+    /* text-decoration: none; */
+}
+.foobut input{
+    border: 1px solid #777373;
+    border-radius: 10px;
+}
+.foobut::placeholder{
+    color: #777373;
+    
+}
+.stay p{
+    color: #737373;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #737373;
+}
+.fle{
+     display: flex;
+    justify-content: space-between;
+}
+.mine{
+    display: flex;
+    gap: 8px;
+}
+.mine a{
+   
+    color: #737373;
+    text-decoration: none;
+}
+@media (max-width: 765px) {
+    .left h1{
+        font-size: 30px;
+    }
+    .buui{
+        margin-bottom: 10px;
+    }
+    .move{
+         padding: 10px 0;
+    }
+    .fas{
+    width: 100%;
+    
+}
+.fasp{
+    width: 100%;
+    
+}
+.fas{
+    width: 100%;
+}
+.logo{
+    width: 100%;
+}
+.foot{
+    flex-direction: column;
+    gap: 10px;
+}
+.individual{
+    width: 100%;
+}
+}
